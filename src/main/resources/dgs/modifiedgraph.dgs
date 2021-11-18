@@ -1,0 +1,16 @@
+DGS004
+null 0 0
+cg  "ui.stylesheet":"graph { fill-color: blue; padding: 40px; }node { size: 10px; shape: box; fill-color: red; }edge { size : 2px; fill-color: black; }"
+an "A"
+an "B"
+an "C"
+an "XYZ1"
+an "XYZ2"
+ae "AB" "A"  "B"
+ce "AB"  "label":"AB"
+ae "BC" "B"  "C"
+ce "BC"  "label":"BC"
+ae "CA" "C"  "A"
+ce "CA"  "label":"CA"
+ae "A--XYZ1" "A"  "XYZ1"
+ae "C--XYZ1" "C"  "XYZ2"

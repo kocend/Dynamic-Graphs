@@ -1,0 +1,26 @@
+DGS004
+null 0 0
+cg  "ui.quality":true
+cg  "ui.antialias":true
+cg  "ui.stylesheet":"graph { fill-color: lightblue; padding: 40px; }"
+an "A"
+cn "A"  "ui.label":"node A"
+cn "A"  "x":50
+cn "A"  "y":50
+an "B"
+cn "B"  "x":50
+cn "B"  "y":100
+cn "B"  "ui.label":"node B"
+cn "B"  "ui.style":"fill-color:#fafabb; shape:cross;size: 30px;"
+an "C"
+cn "C"  "ui.label":"node C"
+cn "C"  "x":50
+cn "C"  "y":150
+an "D"
+cn "D"  "ui.label":"node D"
+cn "D"  "x":100
+cn "D"  "y":150
+ae "A--B" "A"  "B"
+ae "B--C" "B"  "C"
+ae "C--D" "C"  "D"
+ae "D--A" "D"  "A"
