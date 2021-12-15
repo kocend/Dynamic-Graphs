@@ -61,7 +61,7 @@ fun main() {
     withoutSomeLinks.display(true)
 
     val withoutSomeLinksIterations = consensus(moore, "a$NO_LINKS")
-    println("Moore iterations: $withoutSomeLinksIterations")
+    println("withoutSomeLinks iterations: $withoutSomeLinksIterations")
 
     var multiIterationsWithoutSomeLinks = 0
     for( i in 1..10){
